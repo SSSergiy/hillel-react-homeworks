@@ -1,10 +1,14 @@
-import "./style.module.css"
+import './style.module.css';
+import { Component } from 'react';
 
-function Main() {
-  return (
-    <>
-     <div className="main"><span>main</span></div>
-    </>
-    )
+class Main extends Component {
+  render() {
+    return (
+      <div className="main">
+        <span>main</span>
+      </div>
+    );
+  }
 }
-export default Main
+
+export default Main;

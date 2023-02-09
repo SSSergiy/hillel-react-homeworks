@@ -1,10 +1,16 @@
-import "./style.module.css"
+import './style.module.css';
+import { Component } from 'react';
 
-function Left() {
-  return (
-    <>
-    <div className="left"><span>left</span></div>
-    </>
-    )
+class Left extends Component {
+  render() {
+    return (
+      <>
+        <div className="left">
+          <span>left</span>
+        </div>
+      </>
+    );
+  }
 }
-export default Left
+
+export default Left;

@@ -1,10 +1,16 @@
-import "./style.module.css"
+import './style.module.css';
+import { Component } from 'react';
 
-function Header() {
-  return (
-    <>
-     <header><span>heder</span></header>
-    </>
-    )
+class Header extends Component {
+  render() {
+    return (
+      <>
+        <header>
+          <span>heder</span>
+        </header>
+      </>
+    );
+  }
 }
-export default Header
+
+export default Header;
