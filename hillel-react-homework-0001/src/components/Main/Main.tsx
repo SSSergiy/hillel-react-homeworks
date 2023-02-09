@@ -1,10 +1,10 @@
-import './style.module.css';
+import s from './_Main.module.scss';
 import { Component } from 'react';
 
 class Main extends Component {
   render() {
     return (
-      <div className="main">
+      <div className={s.main}>
         <span>main</span>
       </div>
     );

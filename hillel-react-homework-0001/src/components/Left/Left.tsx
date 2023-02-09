@@ -1,4 +1,4 @@
-import './style.module.css';
+import './_Left.scss';
 import { Component } from 'react';
 
 class Left extends Component {

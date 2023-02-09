@@ -1,4 +1,4 @@
-import './style.module.css';
+import './_Header.scss';
 import { Component } from 'react';
 
 class Header extends Component {
