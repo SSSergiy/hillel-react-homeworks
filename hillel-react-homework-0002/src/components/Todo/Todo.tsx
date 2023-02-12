@@ -15,12 +15,18 @@ class Todo extends Component {
   render() {
     return (
       <>
-        <div
-          onClick={this.changeState}
-          className={this.state.done ? 'disabled' : 'item'}
-        >
-          {this.state.title}
-        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td
+                onClick={this.changeState}
+                className={this.state.done ? 'disabled' : 'item'}
+              >
+                {this.state.title}
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </>
     );
   }
